@@ -136,7 +136,7 @@ function setClipboard(value) {
 <h5 style= "font-size: 19px"><u>Patient Information</u> </h5>
 <a style ="color: black">Gender: <?php echo $p_gender ?></a><br>
 <a style ="color: black">Age: <?php echo $p_age ?></a>
-<button class="linkCopy" onclick="setClipboard('localhost/patient-test/getcomment.php?variable4=<?php echo $p_id ?> ')">Copy the Link</button><br>
+<button class="linkCopy" onclick="setClipboard('localhost/Psychological-Test-Management-and-Evaluation-Platform-master/getcomment.php?variable4=<?php echo $p_id ?> ')">Copy the Link</button><br>
 
 
 </div>
